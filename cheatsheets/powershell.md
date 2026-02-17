@@ -1,0 +1,2 @@
+# About PowerShell  
+__PowerShell__ is a powerful command-line shell and scripting language developed by Microsoft. It is designed tohelp users automate tasks, manage systems, and perform administrative tasks efficiently. Built on the .NETframework, __PowerShell__ is both a *__command-line tool__* and *__a scripting environment__*, making it a versatile tool forprogrammers and system administrators. "__PowerShell__ is great because we had a series of rockstar engineers add their awesomeness to the project." 
