@@ -1,6 +1,6 @@
 # PowerShell
 
-PowerShell Logo goes here
+![image](<../Lab3 Files/PowerShell_5.0_icon.png>)
 
 About PowerShell
 
@@ -79,7 +79,7 @@ When writing and debugging PowerShell scripts, using a dedicated editor can grea
   -  Multi-tab interface for working with multiple scripts.  
 * __Best for__: Beginners and users working on older versions of PowerShell.  
 
-ISE Image goes here
+![image](<../Lab3 Files/ISE_panes.png>)
 
 #### Visual Studio Code (VS Code)
 
@@ -92,7 +92,7 @@ ISE Image goes here
   -  Cross-platform (*Windows, macOS, Linux*).  
 * __Best for__: Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.  
 
-VSCode Image goes here
+![image](<../Lab3 Files/vs_code.png>)
 
 Useful Resources for Learning PowerShell
 Official PowerShell Documentation
