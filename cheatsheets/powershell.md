@@ -29,7 +29,7 @@ PowerShell is an essential tool for:
 ## PowerShell History
 
 ### PowerShell Version Comparison
- |Version:|Release Year:|Key Features|  
+ |__Version__|__Release Year__|__Key Features__|  
 | -| -| -|                         
 |1.0|2006|Initial release Windows XP SP2 and Windows Server 2003.|
 |5.1|2016|Last Windows-only version|
@@ -42,29 +42,30 @@ Windows PowerShell: Versions 1.0 to 5.1 (Windows-only).
 PowerShell Core: Versions 6.0 and above (cross-platform).
 
 
-PowerShell for Beginners
+## PowerShell for Beginners
 
-Basic Commands to Get Started
+### Basic Commands to Get Started
+__`Get-Command`__: Lists all available commands.  
+__`Get-Help`__: Provides help information for commands.  
+__`Get-Process`__: Displays all running processes.  
+__`Stop-Process`__: Stops a specific process.  
+__`Set-Location`__: Changes the current directory (like `cd` in Command Prompt).  
+__`New-Item`__: Creates a new file or directory.  
 
-Get-Command: Lists all available commands.
-Get-Help: Provides help information for commands.
-Get-Process: Displays all running processes.
-Stop-Process: Stops a specific process.
-Set-Location: Changes the current directory (like cd in Command Prompt).
-New-Item: Creates a new file or directory.
-
-Example Script
+### Example Script
 
 Here’s a simple script to list all files in a directory and display their sizes:
-# Get all files in the current directory
+``` powershell
+ # Get all files in the current directory
 $files = Get-ChildItem
     
 # Display file names and sizes
 foreach ($file in $files) {
 Write-Output "$($file.Name) - $($file.Length) bytes"
 }
+```
 
-Editors for PowerShell Scripting
+Editors for PowerShell Scripting 
 
 When writing and debugging PowerShell scripts, using a dedicated editor can greatly enhance your productivity. Here are two popular options:
 
