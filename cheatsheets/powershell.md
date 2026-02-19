@@ -65,32 +65,32 @@ Write-Output "$($file.Name) - $($file.Length) bytes"
 }
 ```
 
-Editors for PowerShell Scripting 
+### Editors for PowerShell Scripting 
 
 When writing and debugging PowerShell scripts, using a dedicated editor can greatly enhance your productivity. Here are two popular options:
 
-Windows PowerShell Integrated Scripting Environment (ISE)
+#### Windows PowerShell Integrated Scripting Environment (ISE)
 
-What it is: A built-in editor for Windows PowerShell (versions 1.0 to 5.1).
-Features:
-Syntax highlighting.
-Debugging tools (breakpoints, step-through execution).
-Integrated console for testing scripts.
-Multi-tab interface for working with multiple scripts.
-Best for: Beginners and users working on older versions of PowerShell.
+* __What it is__: A built-in editor for Windows PowerShell (versions 1.0 to 5.1).  
+* __Features__:  
+  -  Syntax highlighting.  
+  -  Debugging tools (breakpoints, step-through execution).  
+  -  Integrated console for testing scripts.  
+  -  Multi-tab interface for working with multiple scripts.  
+* __Best for__: Beginners and users working on older versions of PowerShell.  
 
 ISE Image goes here
 
-Visual Studio Code (VS Code)
+#### Visual Studio Code (VS Code)
 
-What it is: A free, open-source, cross-platform code editor by Microsoft.
-Features:
-Syntax highlighting and IntelliSense for PowerShell.
-Integrated terminal for running scripts.
-Extensions for additional functionality (e.g., PowerShell extension).
-Support for Git and other version control systems.
-Cross-platform (Windows, macOS, Linux).
-Best for: Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.
+* __What it is__: A free, open-source, cross-platform code editor by Microsoft.  
+* __Features:__  
+  -  Syntax highlighting and IntelliSense for PowerShell.  
+  -  Integrated terminal for running scripts.  
+  -  Extensions for additional functionality (*e.g., PowerShell extension*).  
+  -  Support for __Git__ and other version control systems.  
+  -  Cross-platform (*Windows, macOS, Linux*).  
+* __Best for__: Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.  
 
 VSCode Image goes here
 
